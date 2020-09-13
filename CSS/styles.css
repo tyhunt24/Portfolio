@@ -224,3 +224,51 @@ img {
   opacity: 0.7;
   margin: 0;
 }
+
+
+
+#main-footer{
+  background-color: #333333;
+  padding: 30px;
+  color: white;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social .fab{
+  margin-right:1rem;
+  font-size: 50px;
+  text-align: center;
+  padding: 5px;
+}
+
+.fab:hover{
+  color: #b22222;
+  cursor: pointer;
+}
+
+.contact{
+  text-align: center;
+  display: flex;
+}
+
+.fa{
+  font-size: 40px;
+}
+
+.fas{
+  font-size: 40px;
+  text-align: center;
+}
+
+.phone{
+margin-right: 2rem;
+}
+
+.contact p{
+  font-size: 25px;
+}
