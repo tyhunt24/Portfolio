@@ -173,7 +173,7 @@ img {
   transform: translateY(0);
 }
 .item-image {
-  height: auto;
+  height: 100%;
   transform: translateZ(0);
   display: block;
   transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
@@ -189,7 +189,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   line-height: 0;
 }
 .item-text {
@@ -225,7 +225,15 @@ img {
   margin: 0;
 }
 
+.font-awe{
+  font-size: 35px;
+  margin: .2rem;
+}
 
+.font-awe:hover{
+  color: #333;
+  cursor: pointer;
+}
 
 #main-footer{
   background-color: #333333;
@@ -246,7 +254,7 @@ img {
   padding: 5px;
 }
 
-.fab:hover{
+.social .fab:hover{
   color: #b22222;
   cursor: pointer;
 }
@@ -260,7 +268,7 @@ img {
   font-size: 40px;
 }
 
-.fas{
+.contact .fas{
   font-size: 40px;
   text-align: center;
 }
